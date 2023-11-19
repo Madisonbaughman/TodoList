@@ -1,0 +1,81 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+#todo_container{
+    background-color: white; 
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: auto;   
+}
+
+#title{
+    font-family: Ubuntu;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: center; 
+    color: var(--primary, #112D4E);
+}
+
+#title-container{
+    text-align: center;
+    width: 189px;
+    height: 46px;
+    top: 76.07px;
+    left: 605.71px;
+}
+
+#addItem{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+input{
+    background: var(--soft, #DBE2EF);
+    border: 1px solid rgba(177, 177, 177, 0.40);
+    border-radius: 15px;
+    
+}
+
+.myButton{
+    width: 45px;
+    height: 32px;
+}
+
+.clear{
+    margin-bottom: 50px;;
+}
+
+#unordered{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.lineItem{
+    justify-content: center;
+    /* why wont this center in the ul tag???? */
+    list-style-type:none;
+    background-image: url('../assets/icons/Rectangle3.png');
+    background-repeat: no-repeat;
+    margin: .5em;
+    padding: 10px;
+    border-radius: 15px;
+
+    height: 30px;
+    width: 200px;
+   
+}
+
+
+input[type='checkbox']{
+    
+}
